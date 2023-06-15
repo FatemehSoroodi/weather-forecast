@@ -1,2 +1,2 @@
 # weather forecast
- weather Apllication
+ weather Application
