@@ -1,0 +1,86 @@
+body {
+  font-family: "Roboto", sans-serif;
+  text-align: center;
+  background: linear-gradient(
+    117.9deg,
+    rgb(183, 248, 193) -3.5%,
+    rgb(169, 212, 250) 53.8%,
+    rgb(148, 231, 255) 100.4%
+  );
+  width: 50%;
+  display: block;
+  margin: 60px auto;
+  color: #ffff;
+}
+h1 {
+  font-size: 50px;
+  margin-top: 60px;
+}
+h3 {
+  font-weight: 300;
+}
+h4 {
+  font-weight: lighter;
+}
+a {
+  text-decoration: none;
+}
+
+sup {
+  top: -0.3em;
+}
+form {
+  position: relative;
+  margin-left: 0px;
+}
+
+.time {
+  position: relative;
+  margin-top: -55px;
+  margin-right: -300px;
+  padding: 0%;
+}
+.temperature {
+  font-size: 40px;
+  font-weight: 700px;
+}
+.units {
+  font-size: 25px;
+  font-weight: 700px;
+}
+
+.weather-other {
+  margin: 20px;
+}
+
+.future-forecast {
+  border: 2px solid;
+  border-radius: 10px;
+  border-color: darkgray;
+  color: #575151;
+  padding: auto 0;
+  margin-bottom: 20px;
+}
+
+.current {
+  color: #ffff;
+  background-color: #fac70b;
+  border-color: darkgray;
+  transition: all 200ms ease-in-out;
+}
+.current:hover {
+  color: white;
+  border-color: transparent;
+  background-color: #f9a01b;
+}
+.search {
+  color: #ffff;
+  background-color: #f9a01b;
+  border-color: darkgray;
+  transition: all 200ms ease-in-out;
+}
+.search:hover {
+  color: white;
+  border-color: transparent;
+  background-color: #fac70b;
+}
