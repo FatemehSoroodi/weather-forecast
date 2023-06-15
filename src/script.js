@@ -74,17 +74,3 @@ let searchCityName = document.querySelector("#search-city");
 searchCityName.addEventListener("submit", showCity);
 
 searchCity("Qeshm");
-
-function searchCurrentLocation(position) {
-  let apiKey = "eb26c3409a8b440e9ef8cce46c2ec28e";
-  let apiUrl = `https://api.openweathermap.org/data/2.5/weather?lat=${position.coords.latitude}&lon=${position.coords.longitude}&appid=${apiKey}&units=metric`;
-  axios.get(apiUrl).then(showWeather);
-  console.log(apiUrl);
-}
-function handelPosition(event) {
-  event.preventDefault();
-  navigator.geolocation.getCurrentPosition(searchCurrentLocation);
-}
-
-let currentWeather = document.querySelector("#current-button");
-currentWeather.addEventListener("click", handelPosition);

@@ -62,17 +62,6 @@ form {
   margin-bottom: 20px;
 }
 
-.current {
-  color: #ffff;
-  background-color: #fac70b;
-  border-color: darkgray;
-  transition: all 200ms ease-in-out;
-}
-.current:hover {
-  color: white;
-  border-color: transparent;
-  background-color: #f9a01b;
-}
 .search {
   color: #ffff;
   background-color: #f9a01b;
